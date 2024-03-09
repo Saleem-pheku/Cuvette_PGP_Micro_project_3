@@ -1,11 +1,18 @@
 html, body {
   height: 100%;
-  width: 100%;
-  font-family: 'Roboto', sans-serif; 
-  font-size: medium;
-  font-weight: 500;
+  margin: 0; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
   background-color: #3B4664;
 }
+
+.calculator-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
 
 .button{
   width: 100px;
@@ -55,7 +62,7 @@ html, body {
   }
 
 .input, select, textarea{
-  width: 440px;
+  width: 480px;
   height: 50px;
   font-size: 24px;
   font-weight: 700;
