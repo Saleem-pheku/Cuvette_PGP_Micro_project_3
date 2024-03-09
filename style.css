@@ -1,0 +1,70 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+  font-size: medium;
+  font-weight: 500;
+  background-color: #3B4664;
+}
+
+.button{
+  width: 100px;
+  height: 60px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 0px;
+  font-weight: 700;
+  background-color: #EAE3DB;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.row{
+  margin: 8px 0;
+  background-color: #3B4664;
+}
+
+.equalButton{
+    width: 210px;
+    height: 60px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 0px;
+    font-weight: 700;
+    background-color: #D13F30;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.resetButton{
+    width: 210px;
+    height: 60px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 0px;
+    font-weight: 700;
+    background-color: #647299;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.button-container {
+    background-color: #181F32; 
+    padding: 20px;
+    border-radius: 10px; 
+  }
+
+.input, select, textarea{
+  width: 440px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: end;
+  color: white;
+  padding-inline-start: 12px;
+  background-color: #181F32;
+    margin: 0;
+    padding: 10px 0px;
+    border: 0px;
+    border-radius: 12px;
+}
